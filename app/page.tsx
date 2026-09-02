@@ -92,7 +92,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <Image src="/images/hero.webp" alt="حرم مدرسي حديث يعكس منظومة رقمية مترابطة" fill priority sizes="100vw" />
+        <Image src="/images/hero.webp" alt="حرم مدرسي حديث يعكس منظومة رقمية مترابطة" fill priority unoptimized sizes="100vw" />
         <div className="hero-shade" /><div className="hero-grid" />
         <div className="hero-content shell">
           <div className="hero-copy">
@@ -133,7 +133,7 @@ export default function Home() {
         <p className="interaction-note"><Eye size={16} /> افتح أي بطاقة لاستعراض تفاصيلها</p>
       </div></section>
 
-      <section className="command-section" id="command"><Image src="/images/command-center.webp" alt="فريق قيادة مدارس يتابع مركز القيادة المؤسسي" fill sizes="100vw" /><div className="command-shade" /><div className="shell command-content"><p className="eyebrow">03 · مركز القيادة</p><h2>من النبض اليومي إلى القرار الاستراتيجي</h2><p>تتجمع الحقيقة التشغيلية والأكاديمية والمالية في لوحات سياقية؛ تعرض الوضع، تكشف الانحراف، وتوجّه المسؤول إلى الإجراء التالي.</p><div className="command-metrics"><div><Activity /><strong>الآن</strong><span>حضور، حوادث، تغطيات وتنبيهات لحظية</span></div><div><BarChart3 /><strong>الاتجاه</strong><span>مقارنات مدارس وفصول وفترات ومؤشرات</span></div><div><BrainCircuit /><strong>الاستباق</strong><span>إشارات مبكرة للتعثر والغياب والمخاطر</span></div></div></div></section>
+      <section className="command-section" id="command"><Image src="/images/command-center.webp" alt="فريق قيادة مدارس يتابع مركز القيادة المؤسسي" fill unoptimized sizes="100vw" /><div className="command-shade" /><div className="shell command-content"><p className="eyebrow">03 · مركز القيادة</p><h2>من النبض اليومي إلى القرار الاستراتيجي</h2><p>تتجمع الحقيقة التشغيلية والأكاديمية والمالية في لوحات سياقية؛ تعرض الوضع، تكشف الانحراف، وتوجّه المسؤول إلى الإجراء التالي.</p><div className="command-metrics"><div><Activity /><strong>الآن</strong><span>حضور، حوادث، تغطيات وتنبيهات لحظية</span></div><div><BarChart3 /><strong>الاتجاه</strong><span>مقارنات مدارس وفصول وفترات ومؤشرات</span></div><div><BrainCircuit /><strong>الاستباق</strong><span>إشارات مبكرة للتعثر والغياب والمخاطر</span></div></div></div></section>
 
       <section className="migration-section" id="migration"><div className="shell">
         <SectionHead eyebrow="04 · لا بداية من الصفر" title="ينتقل إلى واقع المدرسة بهدوء—أو يعمل بجانبه" lead="التحول ليس عملية نسخ ملفات؛ إنه مسار محكوم يحافظ على سلامة البيانات واستمرار الأعمال وثقة المستخدمين." />
@@ -143,7 +143,7 @@ export default function Home() {
       </div></section>
 
       <section className="ai-section" id="ai"><div className="shell ai-grid">
-        <div className="ai-image-wrap"><Image src="/images/ai-tutor.webp" alt="طالب يتلقى تقوية شخصية من معلّم ذكاء اصطناعي في المنزل" fill sizes="(max-width: 900px) 100vw, 48vw" /><div className="ai-orbit"><Bot /><span>جلسة تعلم شخصية</span></div></div>
+        <div className="ai-image-wrap"><Image src="/images/ai-tutor.webp" alt="طالب يتلقى تقوية شخصية من معلّم ذكاء اصطناعي في المنزل" fill unoptimized sizes="(max-width: 900px) 100vw, 48vw" /><div className="ai-orbit"><Bot /><span>جلسة تعلم شخصية</span></div></div>
         <div className="ai-copy"><p className="eyebrow"><Sparkles size={16} /> 05 · الإضافة المستقبلية</p><h2>الذكاء الاصطناعي يدخل حين تختاره المدرسة—لا قبل ذلك.</h2><p>يبقى النظام المدرسي المتكامل هو القلب. أما الذكاء الاصطناعي فهو حزمة مدفوعة، مستقلة، غير مفعلة افتراضياً، تُضاف عندما تكون المدرسة جاهزة لها.</p><div className="ai-feature"><GraduationCap /><div><strong>معلّم مساند للطالب</strong><span>يقرأ الأداء المصرح به، يحدد الفجوات، يبني خطة تقوية، يشرح ويتدرج ويقيس التحسن—داخل سياسة المدرسة.</span></div></div><div className="ai-feature"><BrainCircuit /><div><strong>فصول افتراضية وتقوية منزلية</strong><span>جلسات منظمة للمراجعة والتأسيس والإثراء مع تسجيل الأهداف والتقدم والتنبيهات.</span></div></div><div className="ai-feature"><Briefcase /><div><strong>أكاديمية الموظفين وعمال رقميون</strong><span>تدريب إجرائي، مساعدة في التقارير، ومهام مالية أو إدارية محددة بوضوح واعتماد بشري.</span></div></div></div>
       </div><div className="shell ai-contract"><div className="contract-title"><KeyRound /><div><small>حدود المسؤولية التجارية والتقنية</small><strong>المدرسة تملك مفاتيحها واستهلاكها وبنيتها.</strong></div></div><div className="contract-grid"><div><Cloud /><span><b>على المدرسة</b>اشتراكات المزود والنماذج والـ Tokens والخوادم والتخزين وأي طرف ثالث.</span></div><div><Cpu /><span><b>على مزود النظام</b>الكود، التكامل، الحوكمة، الجودة، حدود الأدوات وتجربة الاستخدام.</span></div><div><ShieldCheck /><span><b>ضبط إلزامي</b>موافقات بشرية، أقل صلاحية، أثر تدقيقي، تصنيف مخاطر وزر إيقاف.</span></div></div></div></section>
 
