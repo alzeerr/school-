@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {
   Accessibility, Activity, ArrowLeft, BadgeCheck, BarChart3, Bot, BrainCircuit,
   Briefcase, Building2, Bus, Calendar, CheckCircle2, Cloud, Command, Cpu,
@@ -87,7 +88,7 @@ export default function Home() {
       <header className="topbar">
         <a className="brandmark" href="#top" aria-label="العودة إلى البداية"><span className="brand-icon"><Layers3 size={19} /></span><span>منظومة مدرسية · علامة بيضاء</span></a>
         <nav aria-label="التنقل الرئيسي"><a href="#platform">المنظومة</a><a href="#capabilities">القدرات</a><a href="#migration">الانتقال</a><a href="#ai">الذكاء الاصطناعي</a><a href="#roadmap">المستقبل</a></nav>
-        <a className="top-cta" href="#packages">نموذج التقديم <ArrowLeft size={15} /></a>
+        <div className="top-actions"><Link className="language-link" href="/en" lang="en" dir="ltr">English</Link><a className="top-cta" href="#packages">نموذج التقديم <ArrowLeft size={15} /></a></div>
       </header>
 
       <section className="hero" id="top">
